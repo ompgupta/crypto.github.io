@@ -52,7 +52,7 @@
         overflow-x: hidden;
     }
     .text_format{
-        width: 100%;
+        width:auto;
         height: auto;
         left:5%;
         top: 25%;
@@ -92,6 +92,6 @@
       }
       .newsletter input{
         padding: 10px 0px;
-        min-width: 70%;
+       width: 75%;
       }
 }

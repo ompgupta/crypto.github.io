@@ -218,6 +218,7 @@ bottom: -20px;
  }
 .newsletter input{
   padding: 10px 20px;
+  width: auto;
 }
 .newsletter button{
   font-size: 1.4rem;
