@@ -17,8 +17,8 @@
 
     /* ***************services card*************************************** */
     body .container .card {
-        min-width: 100%;
-        height:40vh;
+        width: auto;
+        min-height: 45vh;
       }
       body .container .card .box img{
         width: 35%;
@@ -29,11 +29,11 @@
 
     /* *****************footer**************** */
     .social_link i{
-        width: 15%;
-        height: auto;
+       margin-left: 8px;
       }
       .newsletter input{
-        padding: 8px 10px;
+        padding: 8px 0px;
+        min-width:50%;
       }
 }
 
@@ -54,7 +54,7 @@
     .text_format{
         width: 100%;
         height: auto;
-        left:0%;
+        left:5%;
         top: 25%;
         padding-left: 3%;
         background-color: rgba(0, 0, 0, 0.397);
@@ -74,7 +74,7 @@
     /* ***************services card*************************************** */
     body .container .card {
         min-width: 100%;
-        height:60vh;
+       min-height: 68vh;
       }
       body .container .card .box img{
         width: 35%;
@@ -89,5 +89,9 @@
       }
       footer .col-md-4{
           margin-top: 15px;
+      }
+      .newsletter input{
+        padding: 10px 0px;
+        min-width: 70%;
       }
 }
